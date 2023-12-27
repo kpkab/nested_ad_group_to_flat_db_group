@@ -41,3 +41,4 @@ Everytime you run the script, it will create a log file in the logs directory. T
 # Limitations
 1. Only supports Azure Databricks (AWS Not supported).
 2. Sometimes when adding users or service principals to Databricks groups, the users/SP's may not get added. Just re-run the script once again to add the missing members.
+3. Cannot Delete users, groups or service principals in Databricks.
